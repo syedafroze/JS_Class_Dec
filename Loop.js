@@ -1,4 +1,4 @@
-// single line comment 
+// single line comment
 
 /*
 multi line comment 
@@ -10,27 +10,32 @@ while
 do while 
 */
 
+// while(condition){
+//     console.log("true")
+// }
+
+let num = 1;
+
+do {
+  console.log("do while");
+  num++; 
+} while (num < 3);
 
 
 
-
- let num =1 ;
 
 //  for( ;num<5;){
 //      console.log(num);
 //      num++;
 //  }
 
-//num++ -> post increment 
+//num++ -> post increment
 
-console.log(num , num++ , num , ++num , num , num-- , num  ,--num , num);  // 2  2
+//console.log(num, num++, num, ++num, num, num--, num, --num, num); // 2  2
 //          1      1      2       3      3     3        2      1    1
-//          1       1      2      3      3     3        2       1   1  
+//          1       1      2      3      3     3        2       1   1
 
 //          1       1      2      3       3     3       2        1    1
-
-
-
 
 //       1             2       4
 // for(let num = 1   ; num<5 ; num++){
@@ -39,7 +44,6 @@ console.log(num , num++ , num , ++num , num , num-- , num  ,--num , num);  // 2 
 //         console.log("hello");///hello //hello
 //     }
 // }
-
 
 /*           
 1 
@@ -63,4 +67,3 @@ for(initialzation ; condition ; incr/ decr){
 }
 
 */
-
