@@ -77,18 +77,32 @@ console.log(numArr);
 //shift -> removes element form first index
 numArr.shift();
 console.log(numArr);
-
+//           0 1 2 3 4 
+let arr6 =[ 5,6,7,8,9];//7,8
+arr6.splice(2,2 , 10);//[5,6,9]
+console.log(arr6)
 ///---------------------------------- SPLICE ----------------------------------
 //splice -> remove , add elemnt at any position of array 
 //arrayName.splice(startIndex, no. of elemnts to be removed , elemnts to be added) 
 
 //numArr.splice(1,0,6,7,8);
+//
 numArr.splice(1);//removes all the elemnts from index position 1 
 console.log(numArr);
 
 //-----------------------  Slice ----------------------
+//slice -> use to make copy of an array
 //arrayName.slice(startIndex, endIndex+1)
-let arr3 = [3,4,5,6,7,8];
+//          0 1 2 3 4 5
+let arr3 = [3,4,5,6,7,8];//4567
+
+// array object (reference datatypes)
+
+
+
+let copyArr = arr3.slice(1,5);
+console.log(copyArr);
+
 let startValue = 4;
 let endValue = 6;
 
@@ -128,5 +142,16 @@ console.log(arr5.indexOf(3) , arr5.lastIndexOf(3));//2  5
 
 
 
+let arr7 = [4,5,6,7];
+//reverse()
+console.log(arr7.reverse());
 
+//sort () -> sorts the values in alphabatical order 
+let arr8= [3,4,2,1,5,22] ;//[1,2,3,4,5];
+let str = ["c","b","a","android", "c++","bubble"] ; //
+//bubble sort 
+console.log(arr8.sort((a,b)=>b-a)) ;
+
+
+//function 
 
