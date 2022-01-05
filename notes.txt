@@ -16,6 +16,20 @@ let arr2 = arr ;//
 
 //slice 
 
+Nodejs -> its a run time environmnent  
+(v8 , c++ libraries )
+
+
+//backend 
+
+
+module ()
+expressJS 
+RestAPI 
+
+
+
+
 
 object = {
     key :"value"
