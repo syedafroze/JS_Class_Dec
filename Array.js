@@ -263,3 +263,41 @@ console.log(`num is ${num},num2 is ${num2}`);//num is 5 , num2 is 1
 //[]
 
 //console.log(filteredArr.length == arr11.length ? true : false);
+
+
+//forEach 
+
+
+
+
+// reduce 
+let arr13 = [2,3,4,5];
+
+let res = arr13 .reduce((num1,num2)=>num1+num2 , 0 );
+console.log(res);
+/*
+num1 = 10 ,num2= 2 => 12
+num1= 12  , num2 = 3 => 15
+num1= 15 , num2 =4   19
+num1= 19 num2=5 = 24
+
+
+*/
+// let sum =0;
+//  arr13.forEach((val)=> sum+=val) 
+// console.log(sum);
+
+//for of 
+let arr14 = [2,3,4,5];
+
+for(let i in arr14){//index
+    console.log(arr14[i])
+}
+
+for (let i of arr14) {
+  //index
+  console.log(i);
+}
+
+//for in 
+//arr[8] of -> value 
