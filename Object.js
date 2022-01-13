@@ -64,12 +64,31 @@ let user2 = new createUser3("Renu", 17);
 console.log(user1, user2);
 
 //["name","id","city"]
+//["syed","9","hyd"]
 
 let user3 ={
   name:"syed",
   id:9,
   city:"hyd",
   }
+// [ [name,"syed"] ,[id,"9"], [city,"hyd"] ];
+let resArr=[]
+for(let i in user3){
+ 
+    resArr.push([i, user3[i]]);
+}
+
+console.log(resArr);
+
+
+//Object.entries
+
+let resArr2= Object.entries(user3);
+console.log(resArr2);
+
+
+
+
 
 //[] ->  user3.name
 
@@ -91,5 +110,13 @@ let userKeys = Object.keys(user3);
 let userKeys2 = Object.values(user3);
 console.log(userKeys2);
 
+let users = {
+  name:"syed",
+  id:9
+}
 
 
+
+let users2 = Object.assign({city:"hyd"},users,{ph:"6578", city:"noida"});
+
+console.log(users2);

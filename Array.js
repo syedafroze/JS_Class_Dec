@@ -290,9 +290,10 @@ num1= 19 num2=5 = 24
 //for of 
 let arr14 = [2,3,4,5];
 
-for(let i in arr14){//index
-    console.log(arr14[i])
+for(let i=0; i<arr14.length;i++){//index
+    //fucntionCall(arr14[i]);
 }
+
 
 for (let i of arr14) {
   //index
@@ -301,3 +302,15 @@ for (let i of arr14) {
 
 //for in 
 //arr[8] of -> value 
+
+
+let arr15 = [3,4,5,2,5,6];
+
+let arr16 = arr15.slice(0); 
+
+arr16.splice(1,2);
+
+
+
+console.log(arr15,arr16);
+// []
