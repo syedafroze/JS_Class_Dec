@@ -81,7 +81,7 @@ for(let i in user3){
 console.log(resArr);
 
 
-//Object.entries
+//Object.entries 
 
 let resArr2= Object.entries(user3);
 console.log(resArr2);
@@ -120,3 +120,5 @@ let users = {
 let users2 = Object.assign({city:"hyd"},users,{ph:"6578", city:"noida"});
 
 console.log(users2);
+
+
