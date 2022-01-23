@@ -272,8 +272,8 @@ console.log(`num is ${num},num2 is ${num2}`);//num is 5 , num2 is 1
 
 // reduce 
 let arr13 = [2,3,4,5];
-
-let res = arr13 .reduce((num1,num2)=>num1+num2 , 0 );
+//reduce(callback , intialValue)
+let res = arr13 .reduce((num1,num2)=>num1+num2  );
 console.log(res);
 /*
 num1 = 10 ,num2= 2 => 12
