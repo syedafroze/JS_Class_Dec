@@ -143,3 +143,10 @@ higher order fucntion
 IIFE
 currying -> ()()()
 */
+
+///------------------------ Default paramters
+function Sum(a = 1, b = 1, c, d) {
+  console.log(a + b, c, d);
+}
+
+Sum(2, 3);
