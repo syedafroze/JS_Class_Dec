@@ -18,7 +18,6 @@ map.set("name", "Amit");
 
 console.log(map.get("name"));
 
-
 //-------------------------
 
 let loginCount = new Map(); //constructor method of Map
@@ -53,3 +52,15 @@ for (let i = 0; i < users.length; i++) {
 }
 
 console.log(loginCount);
+
+{  
+  let map2 = new WeakMap(); 
+  {
+    let x = { num: 5 };
+    map2.set(x, 4);
+  }
+   //
+  console.log(map2);//
+}
+
+

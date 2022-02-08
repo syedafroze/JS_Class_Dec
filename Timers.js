@@ -1,8 +1,6 @@
-
 //setTimeout
 //setInterval
-//setImmediate 
-
+//setImmediate
 
 console.log("hello");
 
@@ -10,14 +8,14 @@ console.log("hello");
 
 //1000ms = 1sec
 
-
-
-
-let firstInterval = setInterval(()=>{console.log("hello");}, 3000);
+let firstInterval = setInterval(() => {
+  console.log("hello");
+}, 3000);
 //for every 3sec it executes callbacl function
 
-//session id 
-setTimeout(()=>{clearInterval(firstInterval);} , 10000);
+//session id
+setTimeout(() => {
+  clearInterval(firstInterval);
+}, 10000);
 
 console.log("Thank you");
-

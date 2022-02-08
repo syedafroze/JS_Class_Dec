@@ -150,3 +150,19 @@ function Sum(a = 1, b = 1, c, d) {
 }
 
 Sum(2, 3);
+
+
+
+
+// - Callback hell
+
+//  nested callbacks thats is a callabck function calling another callback function 
+//is called callback hell . it is  hard to read 
+
+
+/*
+
+
+
+
+*/
